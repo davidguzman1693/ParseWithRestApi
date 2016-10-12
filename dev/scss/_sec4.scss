@@ -1,0 +1,364 @@
+#quesos{
+    z-index: 1;
+	border: 0;
+	margin: 0;
+	position: relative;
+	width: 100%;
+	height: 68.75rem;
+	background-image: url(/images/background/fondo-quesos.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	margin-bottom: -15.625rem;
+    
+    @media screen and (max-width: $change-sec4) {  
+        height: 100rem;
+        margin-bottom: -30%;
+    }
+    @media screen and (max-width: 57.25rem) {
+        height: 93.75rem;
+        margin-bottom: -35%;
+    }
+    @media screen and (max-width: 48.9375rem) {
+        background-image: url(/images/background/fondo-quesos-movil.png);
+        //height: 1700px;
+        height: 93.75rem;
+        margin-bottom: -10%;   
+    }
+    @media screen and (max-width: 45.125rem) {
+        margin-bottom: -12%;
+    }
+    @media screen and (max-width: 37.5rem) {
+        
+        height: 128.125rem;
+    }
+    @media screen and (max-width: 33.25rem) {
+        height: 123.75rem;
+    }
+    @media screen and (max-width: 27.875rem) {
+        height: 118.75rem;
+    }
+    @media screen and (max-width: 21.875rem) {
+        margin-bottom: -15%;
+    }
+    
+
+    #holes {
+		position: absolute;
+		top: 13%;
+		width: 98%;
+		//width: 50%;
+        @include animation-duration(2s);
+  		height: 52.375rem;
+		background-image: url(/images/background/huecos-queso.png);
+		background-repeat: no-repeat;
+		object-fit: contain;
+		background-size: 100%;
+	}
+
+    #cheese-div {
+        width: 34rem;
+        height: 32.1875rem;
+        float: left;
+        margin-top: 10.625rem;
+        margin-left: 0.625rem;
+        @media screen and (min-width: 125rem) {//Resolución 2000px
+            margin-left: 6.25rem;
+        }
+        @media screen and (min-width: 137.5rem) {//Resolución 2200px
+            margin-left: 10rem;
+        }
+        @media screen and (min-width: 150rem) {//Resolución 2400px
+            margin-left: 12.5rem;
+        }
+        @media screen and (max-width: $change-sec4) {
+            float: none;
+            display: block;
+            position: relative;
+            width: 36%;
+            height: auto;
+            margin: 0 auto;
+            margin-top: 4.375rem;
+            min-width: 16.875rem;
+        }
+        @media screen and (max-width: 37.5rem) {
+            width: 70%;
+        }
+        #campesino-cheese {
+            //min-width: 21.7431rem;
+            width: 100%;
+        }
+        #tajadas-queso { 
+            margin-top: -10rem;
+            margin-left: -1.875rem;
+            width: 70%;
+            min-width: 60%;
+            height: auto;
+            @media screen and (max-width: 31.9375rem) {
+                margin-top: -8.75rem;
+            }
+        }
+    }
+    
+    #trozo-queso {
+    	width: 12%;
+    	position: absolute;
+    	right: 0;
+    	bottom: 25%;
+        min-width: 5rem;
+        @include animation-duration(4s);
+        @media screen and (max-width: 48.9375rem) {
+            bottom: 9.375rem;
+        }
+    }
+    #trozo-queso2 {
+    	width: 5.5%;
+    	position: absolute;
+    	right: 0;
+    	bottom: 16%;
+        min-width: 2.5rem;
+        @include animation-duration(2s);
+        @media screen and (max-width: 48.9375rem) {
+            bottom: 6.25rem;
+        }
+    }
+    h1 {
+    	position: absolute;
+    	left: 48%;
+    	top: 16.25rem;
+    	width: 30rem;
+    	font-family: Pacifico;
+		font-size: 4.5rem;
+		font-weight: normal;
+        text-align: center;
+		color: $faded-orange;
+        @media screen and (min-width: 106.25rem) {
+             top: 12.5rem;
+        }
+        @media screen and (max-width: $change-sec4) {
+            position: relative;
+            left: 0;
+            top: 0;
+            font-size: 4.25rem;
+            margin: 0 auto;
+            padding-top: 10.625rem;
+        }
+        @media screen and (max-width: 37.5rem) {
+            width: 16.4688rem;
+            padding-top: 5rem;
+        }
+    }
+    #desc {
+    	position: absolute;
+    	//right: %;
+    	left: 48.5%;
+		top: 25rem;
+		width: 32.25rem;
+		height: 7.25rem;
+		font-family: AcuminPro, Sans-serif;
+		font-size: 1.25rem;
+		font-weight: normal;
+		line-height: 1.32;
+		color: $mud-brown;
+        @media screen and (min-width: 106.25rem) {
+             top: 20rem;
+        }
+        @media screen and (max-width: $change-sec4) {
+            position: relative;
+            left: 0;
+            top: 0;
+            margin: 0 auto;
+
+            margin-top: 1.875rem;
+            font-size: 1.375rem;
+        }
+        @media screen and (max-width: 37.5rem) {
+            width: 15.625rem;
+            height: 14.5rem;
+            margin-top: 3.125rem;
+        }
+    }
+    #desc2 {
+    	  position: absolute;
+    	  left: 48.5%;
+    	  width: 28.8125rem;
+		  height: 1.8125rem;
+		  top: 37.5rem;
+		  font-family: AcuminPro, Sans-serif;
+		  font-size: 1.4375rem;
+		  font-weight: bold;
+		  line-height: 1.16;
+		  color: $mud-brown;
+          @media screen and (min-width: 90rem) {
+             left: 48.5%;
+          }
+          @media screen and (min-width: 106.25rem) {
+             top: 29.375rem;
+          }
+          @media screen and (max-width: $change-sec4) {
+            position: relative;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: 0 auto;
+            padding-right: 3.75rem;
+            //margin-left: 26.8%;
+            //margin-right: 37.463566%;
+            margin-top: 9.375rem;
+            font-size: 1.375rem;
+        }
+        @media screen and (max-width: 37.5rem) {
+            margin-top: 8.75rem;
+            padding-right: 0;
+            width: 15.625rem;
+            height: 3.625rem;
+        }
+    }
+    #nav {
+        list-style-type: none;
+        margin: 0.9375rem 0 0 0;
+        padding: 0;
+        width: 46.25rem;
+        height: auto;
+        position: absolute;
+        left: 32%;
+        top: 39.375rem;
+        @media screen and (min-width: 90rem) {
+            left: 36%;
+        }
+        @media screen and (min-width: 106.25rem) {
+            top: 31.25rem;
+        }
+        @media screen and (min-width: 131.25rem) {
+             left: 38.5%;
+        }
+
+        @media screen and (max-width: $change-sec4) {
+            position: relative;
+            margin: 0 auto;
+            top: 0;
+            left: 0;
+        }
+        
+        /*@media screen and (max-width: 48.9375rem) {
+            width: 10.625rem;
+            //width: px;
+        }
+
+        li {
+            width: 10rem;
+            margin-left: 3%;
+            float: left;
+            text-align: center;
+            figure {
+                
+                figcaption{
+           			font-family: AcuminPro, Sans-serif;
+        			font-size: 1.125rem;
+        			font-weight: normal;
+        			color: #553408;
+        		}
+            }
+
+            @media screen and (max-width: $change-sec4) {
+                margin-left: 0.5%;
+            }
+
+            @media screen and (max-width: 48.9375rem) {
+                padding: 0;
+                clear: left;
+                margin-top: 1.25rem;
+            }
+            
+        }
+
+        #double {
+            padding-top: 1.125rem;
+            @media screen and (max-width: 48.9375rem) {
+                padding: 0;
+            }
+        }
+
+        #double-taj {
+            padding-top: 2.0625rem;
+
+            @media screen and (max-width: 48.9375rem) {
+                padding: 0;
+            }
+        }
+
+        #per {
+            padding-top: 3.8125rem;
+
+            @media screen and (max-width: 48.9375rem) {
+                padding: 0;
+            }
+        }*/
+        @media screen and (max-width: 48.9375rem) {
+            width: 22.5rem;
+        }
+        @media screen and (max-width: 37.5rem) {
+            width: 10.625rem;
+        }
+        li {
+            width: 10rem;
+            margin-left: 3%;
+            float: left;
+            text-align: center;
+            figure {
+                
+                figcaption{
+                    font-family: AcuminPro, Sans-serif;
+                    font-size: 1.125rem;
+                    font-weight: normal;
+                    color: #553408;
+                }
+            }
+
+            @media screen and (max-width: $change-sec4) {
+                margin-left: 0.5%;
+            }
+
+            @media screen and (max-width: 48.9375rem) {
+                padding: 0;
+                margin-top: 1.25rem;
+            }
+            @media screen and (max-width: 37.5rem) {
+                clear: left;
+            }
+            
+        }
+
+        #double {
+            padding-top: 1.125rem;
+            @media screen and (max-width: 48.9375rem) {
+                margin-left: 1.875rem;
+            }
+            @media screen and (max-width: 37.5rem) {
+                margin-left: 0;
+                padding: 0;
+            }
+        }
+
+        #double-taj {
+            padding-top: 2.0625rem;
+
+            @media screen and (max-width: 37.5rem) {
+                padding: 0;
+            }
+        }
+
+        #per {
+            padding-top: 3.8125rem;
+
+            @media screen and (max-width: 48.9375rem) {
+                //padding: 0;
+                margin-left: 1.875rem;
+            }
+            @media screen and (max-width: 37.5rem) {
+                margin-left: 0;
+                padding: 0;
+            }
+        }
+
+    }
+}
