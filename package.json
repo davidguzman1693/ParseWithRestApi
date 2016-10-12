@@ -1,0 +1,15 @@
+{
+  "name": "campesino",
+  "version": "1.0.0",
+  "description": "campesino: a project of simian",
+  "author": "Simian SAS",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "gulp-sass": "~2.3.2",
+    "gulp": "^3.9.0",
+    "browser-sync": "^2.10.1",
+    "node-bourbon": "~4.2.8"
+  }
+}

@@ -1,0 +1,23 @@
+language: node_js
+
+node_js:
+ - 0.10.31
+
+env:
+  global:
+    - APP_NAME=campesino
+
+script:
+  - mocha
+
+after_success:
+  - if [ $BRANCH == "develop" ]; then git push -f git@heroku.com:campesino.git $BRANCH:master; fi
+  - if [ $BRANCH == "master" ]; then git push -f git@heroku.com:campesino-produccion.git $BRANCH:master; fi
+
+# include
+branches:
+  only:
+    - master
+    - develop
+
+cache: true

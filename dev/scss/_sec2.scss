@@ -1,0 +1,147 @@
+#sec2 {
+	
+	position: relative;
+	border: 0;
+	margin: 0;
+	width: 100%;
+    height: 75.0312rem;
+    background-image: url(/images/background/fondo-veige-prodcutos-naturales@2x.png);
+    background-repeat: no-repeat;
+    margin-bottom: -12.5rem;
+    text-align: center;
+    @media screen and (max-width: 38.6875rem) {
+		height: 78.125rem;	
+	}
+
+    @media screen and (max-width: 43.75rem) {
+		height: 87.5rem;
+		margin-bottom: -9.375rem;
+	}
+	
+	@media screen and (max-width: 36.8125rem) {
+		margin-bottom: -6.25rem;
+	}
+
+    h1{
+    	width: 37.5rem;
+  		height: 6.3125rem;
+  		margin: 0 auto;
+		padding-top: 25rem;
+		font-family: Pacifico;
+		font-size: 3.375rem;
+		font-weight: normal;
+		color: $mud-brown;
+		@media screen and (max-width: 38.75rem) {
+			width: 18.0625rem;
+  			height: 8rem;
+  		}
+	}
+	#firsttitle{
+		width: 37.5rem;
+  		height: 1.375rem;
+  		margin: 0 auto;
+		font-family: AcuminPro, Sans-serif;
+		font-size: 1.25rem;
+		font-weight: normal;
+		text-align: center;
+		color: $mud-brown;
+		@media screen and (max-width: 38.6125rem) {
+			width: 8.75rem;
+			height: 4.375rem;
+		}
+	}
+	#secondtitle {
+		width: 34.375rem;
+		height: 20.625rem;
+		margin: 0 auto;
+		font-family: AcuminPro, Sans-serif;
+		font-size: 1.25rem;
+		font-weight: normal;
+		line-height: 1.32;
+		text-align: center;
+		color: $mud-brown;
+		@media screen and (max-width: 43.75rem) {
+			width: 18.0625rem;
+  			height: 34.375rem;
+		}
+	}
+
+	#industry {
+		display: block;
+		padding-top: 0;
+		width: 7.5rem;
+		margin: 0 auto;
+	}
+	
+	#land {
+		z-index: 2;
+		position: absolute;
+		top: 8.75rem;
+		right: 0;
+		width: 25%;
+		min-width: 7.375rem;
+		@include animation-duration(4s);
+		@media screen and (min-width: 80rem) {//Resolución 1280px
+            width: 22.0625rem;
+        }
+  		@media screen and (max-width: $change) {
+			top: 28.125rem;
+		}
+		
+	}
+
+	#topflow {
+		z-index: 3;
+		position: absolute;
+		left: 0;
+		top: 13.125rem;
+		width: 19%;
+		min-width: 5.6875rem;
+		@include animation-duration(2.5s);
+		@media screen and (min-width: 80rem) {//Resolución 1280px
+            width: 17.875rem;
+        }
+  		@media screen and (max-width: $change) {
+			top: 21.375rem;
+			left: -2.5rem;
+		}
+	}
+
+	//Flowers
+	#fill-7 {
+		position: absolute;
+		top: 25%;
+		right: 21%;
+		@include animation-duration(2s);
+		@media screen and (max-width: $change) {
+			display: none;
+		}
+	}
+
+	#fill-8 {
+		position: absolute;
+		bottom: 30%;
+		right: 15%;
+		@include animation-duration(2.5s);
+		@media screen and (max-width: $change) {
+			right: 0.75rem;
+			top: 21.875rem;
+		}
+	}
+
+	#fill-9 {
+		position: absolute;
+		bottom: 31%;
+		left: 21%;
+		@include animation-duration(3s);
+		@media screen and (max-width: $change) {
+			display: none;
+		}
+	}
+}
+
+
+
+
+
+

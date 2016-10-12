@@ -1,0 +1,205 @@
+#yogurts {
+	  position: relative;
+	  width: 100%;
+  	height: 68.0938rem;
+  	object-fit: contain;
+  	background-image: radial-gradient(circle at 50% 0, $purplish-grey, $dirty-purple);
+  	background-repeat: no-repeat;
+    margin-bottom: -2.5rem;
+    @media screen and (max-width: 61.0625rem) {
+      height: 62.5rem;
+    }
+    @media screen and (max-width: 49rem) {
+      height: 50rem;
+    }
+    @media screen and (max-width: 45.125rem) {
+      height: 40.625rem;
+    }
+    @media screen and (max-width: 39.875rem) {
+      height: 37.5rem;
+    }
+    @media screen and (max-width: 25.1875rem) {
+      height: 31.25rem;
+    }
+    #fill-13 {
+		float: right;
+		margin-top: 16%;
+    @include animation-duration(3.5s);
+    @media screen and (max-width: $change-sec5) {
+      display: none;
+    }
+  	}
+
+  	#fill-14 {
+		float: left;
+		margin-top: 11%;
+    @include animation-duration(3s);
+    @media screen and (max-width: $change-sec5) {
+      display: none;
+    }
+  	}
+    
+  	#yogures {
+      z-index: 1;
+  		width: 77.2%;
+      position: absolute;
+      display: block;
+  		left: 0;
+      bottom: -23%;
+  		margin-left: -3.75rem;
+      @media screen and (min-width: 80rem) {
+        width: 61.0838rem;
+        bottom: -23%;
+      }
+      @media screen and (max-width: 72.375rem) {
+        bottom: -20%;
+      }
+      @media screen and (max-width: 66.375rem) {
+        bottom: -18%;
+      }
+      @media screen and (max-width: $change-sec5) {
+        bottom: -20%;
+        margin-right: 11.4%;
+        margin-left: 11.4%;
+      }
+      @media screen and (max-width: 34.375rem) {
+        width: 25.8125rem;
+      }
+      @media screen and (max-width: 56rem) {
+        bottom: -17%;
+      }
+      @media screen and (max-width: 25rem) {
+        margin-left: -1.125rem;
+        bottom: -19%;
+      }
+      @media screen and (max-width: 35.25rem) {
+        margin-bottom: 5%;
+      }
+      @media screen and (max-width: 22.9375rem) {
+          bottom: -17%;
+      }
+      @media screen and (max-width: 30rem) {
+        margin-left: -1.625rem;
+        bottom: -19%;
+        margin-right: 0;
+      }
+      @media screen and (max-width: 25.1875rem) {
+         width: 22.5rem;
+         bottom: -16%;
+         margin-left: -1.25rem;
+      }
+      @media screen and (max-width: 22.5rem) {
+        width: 21.25rem;
+      }
+     
+  	}
+	
+  	h1 {
+  		width: 31.25rem;
+      padding-top: 12.5rem;
+  		min-width: 34%;
+      margin: 0 auto;
+	    font-family: Pacifico;
+  		font-size: 4rem;
+  		font-weight: normal;
+  		text-align: center;
+  		color: $beige-three;
+      @media screen and (max-width: 71.375rem) {
+        padding-top: 18.75rem;
+      }
+      @media screen and (max-width: 49rem) {
+        padding-top: 12.5rem; 
+      }
+      @media screen and (max-width: 45.125rem) {
+        padding-top: 5rem;
+        width: 18.75rem;
+        height: 8.375rem;
+      }
+  	}
+
+  	p {
+  		  position: relative;
+        margin: 0 auto;
+        margin-top: 1.875rem;
+        padding-left: 6.25rem;
+  		  width: 35rem;
+  		  height: 14.5rem;
+  		  font-family: AcuminPro, Sans-serif;
+  		  font-size: 1.2375rem;
+  		  font-weight: normal;
+  		  line-height: 1.32;
+  		  color: $beige-two;
+        @media screen and (max-width: $change-sec5) {
+          display: none;
+        }
+  	}
+
+  	#vector-desc {
+  		position: absolute;
+  		bottom: 38%;
+  		right: 10%;
+  		width: 22.8%;
+      @media screen and (min-width: 100rem) {
+        right: 20%;  
+        width: 20.5195rem;
+      }
+
+      @media screen and (min-width: 112.5rem) {
+        bottom: 34%;  
+      }
+      @media screen and (min-width: 118.75rem) {
+        right: 26%;
+      }
+      @media screen and (min-width: 131.25rem) {
+        bottom: 32%;
+      }
+      @media screen and (max-width: $change-sec4) {
+        bottom: 30%;
+      }
+      @media screen and (max-width: $change-sec5) {
+      display: none;
+      }
+  	}
+
+  	#fill-15 {
+  		position: absolute;
+  		bottom: 32%;
+  		right: 28%;
+  		width: 3.7%;
+      @include animation-duration(2.5s);
+      @media screen and (max-width: $change-sec5) {
+      display: none;
+      }
+  	}
+  	#bottles {
+
+    		position: absolute;
+        z-index: 1;
+    		width: 11.9375rem + 7.75rem;
+    		height: 18.75rem;
+    		right: 2%;
+    		bottom: -4%;
+        @include animation-duration(3s);
+        @media screen and (min-width: 100rem) {
+          right: 10%;
+          bottom: -2%;
+        }
+        @media screen and (min-width: 118.75rem) {
+          right: 16%;
+        }
+    		#big {
+  			  float: left;
+  			#bottle-1800{
+  				width: 50%;
+  			}
+  		}
+
+  		#small {
+  			float: right;
+  			margin-top: 51.2%;
+  		}
+      @media screen and (max-width: $change-sec5) {
+        display: none;
+      }
+  	}	
+}
